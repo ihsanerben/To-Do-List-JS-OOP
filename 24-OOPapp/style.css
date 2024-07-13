@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    color: white;
+    background-color: black;
+    font-weight: bold
+}
+
+.üst {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.alt {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#ulID {
+    width: 600px;
+    border: solid 1px grey;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#inputID {
+    height: 50px;
+    width: 350px;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.inputOrtak {
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+}
+
+#ekleID {
+    width: 100px;
+    background-color: green;
+}
+
+#temizleID {
+    width: 80px;
+    background-color: red;
+}
+
+#ekleID:active {
+    background-color: black;
+}
+
+#temizleID:active {
+    background-color: black;
+}
+
+.alt ul li {
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.button1 {
+    width: 50px;
+    height: 30px;
+    color: black;
+    background-color: grey;
+}
+
+@media (max-width: 435px) and (max-height: 935px) {
+    #ulID {
+        width: 300px;
+        border: solid 1px grey;
+        margin: auto;
+        list-style: none;
+        padding: 10px;
+    }
+
+    .alt ul li {
+        margin-bottom: 7px;
+        border: 1px solid grey;
+        padding: 7px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .inputOrtak {
+        margin-top: 5px;
+        height: 40px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        color: white;
+    }
+
+    #ekleID {
+        width: 90px;
+        background-color: green;
+    }
+
+    #temizleID {
+        width: 70px;
+        background-color: red;
+    }
+
+}
